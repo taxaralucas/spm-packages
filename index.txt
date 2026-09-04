@@ -1,3 +1,4 @@
 hello|1.0||hello-1.0.tar.gz|A simple test program
 fetch-ip|1.0||fetch-ip-1.0.tar.gz|Test script
 curl|8.11.0||curl-8.11.0.tar.gz|Static curl binary
+ca-certificates|2026.09.03||ca-certificates-2026.09.03.tar.gz|Mozilla CA certificate bundle
