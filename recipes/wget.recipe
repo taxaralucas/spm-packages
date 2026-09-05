@@ -1,0 +1,12 @@
+NAME=wget
+VERSION=1.21.4
+DESC="GNU wget (static, HTTP only)"
+DEPS=""
+SOURCE_URL="https://ftp.gnu.org/gnu/wget/wget-1.21.4.tar.gz"
+INSTALL_PATH="/usr/bin/wget"
+
+build() {
+    CC=musl-gcc ./configure --disable-shared --without-ssl --disable-nls --without-zlib
+    make LDFLAGS="-static" -j$(nproc)
+    cp src/wget "$OUT_BINARY"
+}

@@ -4,3 +4,4 @@ curl|8.11.0||curl-8.11.0.tar.gz|Static curl binary
 ca-certificates|2026.09.03||ca-certificates-2026.09.03.tar.gz|Mozilla CA certificate bundle
 needshello|1.0|hello|needshello-1.0.tar.gz|Depends on hello
 wget|1.21.4||wget-1.21.4.tar.gz|GNU wget (static, HTTP only)
+neofetch|7.1.0|bash|neofetch-7.1.0.tar.gz|Auto-packaged script from dylanaraps/neofetch
